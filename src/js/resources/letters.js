@@ -1,0 +1,10 @@
+export const letters = [
+  'Todo comienza con una esfera, una forma simple pero especial, como la primera vez que te vi, ese momento en que me regalaste tu mirada formando la base de nuestra geometría sin saber que forma podría tener.',
+  'Yo buscándote por todas partes, buscando esa mirada otra vez en el patio de la escuela, una emoción que le puso color y textura a mis días, una razón de despertar y llegar tan solo para verte.',
+  'Lo logré, tu atención y tu respuesta enloquecieron mi figura, la deformaron sin una razón ni un camino, la esfera perdió su estructura con la emoción del primer beso, de la primera vez que nos acercamos después de fantasearlo a diario.',
+  'El tiempo pasa y comenzamos a formar algo nuevo, algo único, cada vértice se coloca en un lugar especial dejando ver algo hermoso, algo especial, tu y yo caminando juntos, viviendo, mirando y sonriendo, una forma que se puede ya sentir, vivir.',
+  'Experiencias se acumularon, suavizaron con formulas precisas nuestra geometría nueva, palabras que se dijeron y se dejaron sentir tan profundo, nuestra figura maduró poco a poco, pero aún éramos niños, aún enloquecíamos como estudiantes.',
+  'Seguíamos, a pesar de tantas cosas, a pesar de lo difícil y lo simple, viviendo lo nuestro cada vez más cerca, más fuerte, soñando en el futuro, soñando fantasias de la pareja ideal, pero no sabíamos nada, éramos ingenuos aún, soñadores.',
+  'Y los sueños comenzaron a formarse en la realidad, tu yo creciendo juntos, aprendiendo del mundo y sus lecciones, sentimientos de dolor, tristeza, alegría, enojo, esperanza y pasión, formaron la figura final, ahí esta, se ve, se puede tocar, estamos viviendo nuestros sueños, nos amamos mas que nunca, y la geometría se ha afinado, suave y exacta, esta completa, estamos completos nosotros.',
+  'Y así es como se ve hoy, así es como late, como se siente y se vive, así es nuestro amor, con entrega, respeto, inspiración, motivación y fuerza, así es como termina la esfera que formamos hace 15 años, así es como se forma un corazón...'
+]

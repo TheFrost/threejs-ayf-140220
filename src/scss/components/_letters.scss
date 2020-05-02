@@ -1,0 +1,12 @@
+.letters {
+  display: flex;
+  padding: 5rem 0 5rem 5rem;
+  width: 50%;
+
+  &__text {
+    font-size: 2rem;
+    font-weight: 300;
+
+    color: white;
+  }
+}

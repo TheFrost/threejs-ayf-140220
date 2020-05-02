@@ -1,0 +1,42 @@
+.intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  &.entry .intro__title.final { display: none; }
+  &.final {
+    z-index: 20;
+
+    .intro__title.entry { display: none; }
+  }
+
+  &__title {
+    margin: 0;
+
+    font-size: 10vw;
+
+    text-align: center;
+
+    &.final { font-size: 20vw; }
+  }
+
+  &__container {
+    position: relative;
+
+    display: block;
+
+    overflow: hidden;
+  }
+
+  &__row {
+    display: block;
+  }
+}

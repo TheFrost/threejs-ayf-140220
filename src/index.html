@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A y F</title>
+
+  <link rel="stylesheet" href="scss/main.scss">
+</head>
+
+<body>
+
+  <audio class="audio" src="assets/heart-song.mp3" loop></audio>
+
+  <!-- splash screen -->
+  <div class="splash">
+    <div class="splash__inner">
+      <div class="splash__content">
+        <div class="splash__text">
+          <span class="splash__char">A</span>
+          <svg class="splash__icon" viewBox="0 0 1024 1024">
+            <path
+              d="M924.6 125.2c-109.6-93.4-272.6-76.6-373.2 27.2l-39.4 40.6-39.4-40.6c-100.4-103.8-263.6-120.6-373.2-27.2-125.6 107.2-132.2 299.6-19.8 415.8l387 399.6c25 25.8 65.6 25.8 90.6 0l387-399.6c112.6-116.2 106-308.6-19.6-415.8z">
+            </path>
+          </svg>
+          <span class="splash__char">F</span>
+        </div>
+        <svg class="splash__indication" viewBox="0 0 1024 1024">
+          <path
+            d="M512 64c-282.96 0-512 228.992-512 512v96c0 0 0 0.001 0 0.001 0 24.913 14.235 46.501 35.015 57.075l0.363 0.168 28.766 14.382c4.022 120.18 102.698 216.374 223.856 216.374h48c26.51 0 48-21.49 48-48v-352c0-26.51-21.49-48-48-48h-48c-62.684 0-119.342 25.758-160 67.254v-3.254c0-211.738 172.262-384 384-384s384 172.262 384 384v3.254c-40.658-41.496-97.316-67.254-160-67.254h-48c-26.51 0-48 21.49-48 48v352c0 26.51 21.49 48 48 48h48c121.158 0 219.834-96.196 223.856-216.374l28.764-14.382c21.144-10.741 35.38-32.33 35.38-57.244v0-96c0-282.958-228.992-512-512-512z">
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- // ENDsplash screen -->
+
+  <main class="wrapper">
+    <!-- action control -->
+    <button class="action" data-action-type="play">
+      <svg class="action__icon play" viewBox="0 0 896 1024">
+        <path
+          d="M848.8 429.4l-704-416.2c-57.2-33.8-144.8-1-144.8 82.6v832.2c0 75 81.4 120.2 144.8 82.6l704-416c62.8-37 63-128.2 0-165.2z">
+        </path>
+      </svg>
+      <svg class="action__icon next" viewBox="0 0 896 1024">
+        <path
+          d="M381 133.8l44.4-44.4c18.8-18.8 49.2-18.8 67.8 0l388.8 388.6c18.8 18.8 18.8 49.2 0 67.8l-388.8 388.8c-18.8 18.8-49.2 18.8-67.8 0l-44.4-44.4c-19-19-18.6-50 0.8-68.6l241-229.6h-574.8c-26.6 0-48-21.4-48-48v-64c0-26.6 21.4-48 48-48h574.8l-241-229.6c-19.6-18.6-20-49.6-0.8-68.6z">
+        </path>
+      </svg>
+      <svg class="action__icon reload" viewBox="0 0 1024 1024">
+        <path
+          d="M512.91 16c132.538 0.238 252.874 52.466 341.718 137.37l71.43-71.43c30.24-30.238 81.942-8.822 81.942 33.942v268.118c0 26.51-21.49 48-48 48h-268.118c-42.764 0-64.18-51.702-33.942-81.942l83.5-83.5c-61.728-57.798-141.602-89.814-226.46-90.546-184.796-1.596-340.566 147.954-338.968 338.884 1.516 181.122 148.356 333.104 335.988 333.104 82.254 0 159.994-29.356 221.258-83.112 9.486-8.322 23.812-7.816 32.736 1.106l79.324 79.324c9.744 9.744 9.262 25.63-0.964 34.866-87.95 79.442-204.502 127.816-332.354 127.816-273.932 0-495.998-222.066-496-495.996-0.002-273.618 223.292-496.494 496.91-496.004z">
+        </path>
+      </svg>
+    </button>
+    <!-- // END action control -->
+
+    <!-- webgl scene -->
+    <div class="webgl">
+      <canvas id="canvas"></canvas>
+    </div>
+    <!-- // END webgl scene -->
+
+    <!-- intro -->
+    <div class="intro entry">
+      <h1 class="intro__title entry">
+        <span class="intro__container">
+          <span class="intro__row">¿Cómo se forma </span>
+        </span>
+        <span class="intro__container">
+          <span class="intro__row">un corazón?</span>
+        </span>
+      </h1>
+      <h1 class="intro__title final">
+        <span class="intro__container">
+          <span class="intro__row">Te Amo</span>
+        </span>
+      </h1>
+    </div>
+    <!-- // END intro -->
+
+    <!-- letters -->
+    <div class="letters">
+      <p class="letters__text">Todo comienza con una esfera, una forma simple pero especial, como la primera vez que te
+        vi, ese momento en que me regalaste tu mirada formando la base de nuestra geometría sin saber que forma podria
+        tener.</p>
+    </div>
+    <!-- // END letters -->
+
+  </main>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.action {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 30;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  padding: 1.2rem;
+
+  border: 2px solid white;
+  border-radius: 50%;
+  background: none;
+
+  &:hover {
+    cursor: pointer;
+
+    .action__icon {
+      transform: scale3d(1.1, 1.1, 1)
+    }
+  }
+
+  &[data-action-type=play] {
+    $offset: 2px;
+    padding-left: calc(1.2rem + #{$offset});
+    padding-right: calc(1.2rem - #{$offset});
+
+    .action__icon.play {
+      display: block;
+    }
+  }
+  &[data-action-type=next] .action__icon.next { display: block; }
+  &[data-action-type=reload] .action__icon.reload { display: block; }
+
+  &__icon {
+    display: none;
+    width: 100%;
+
+    fill: white;
+    transition: transform 0.17s ease-in-out;
+  }
+}
